@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 2</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: sans-serif;
+    }
+
+    .sticker {
+      width: 150px;
+      margin: 10px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 8px 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Selecciona tus stickers</h1>
+  <div class="container">
+    <div>
+      <img src="./assets/img/Hulk-Sticker01.png" class="sticker" alt="Sticker 1"><br>
+      <input type="number" id="sticker1" min="0">
+    </div>
+    <div>
+      <img src="./assets/img/Hulk-Sticker02.png" class="sticker" alt="Sticker 2"><br>
+      <input type="number" id="sticker2" min="0">
+    </div>
+    <div>
+      <img src="./assets/img/Hulk-Sticker03.png" class="sticker" alt="Sticker 3"><br>
+      <input type="number" id="sticker3" min="0">
+    </div>
+  </div>
+  <button onclick="verificar()">Verificar</button>
+  <p id="resultado"></p>
+  <button onclick="window.location.href='index.html'">Volver al inicio</button>
+  <script src="ejercicio2.js"></script>
+</body>
+</html>
