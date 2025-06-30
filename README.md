@@ -22,7 +22,7 @@ Incluye 3 ejercicios prácticos aplicando condicionales `if`, `else if`, `else` 
 
 ## 🚀 Vista en vivo
 
-👉 *GitHub Pages:* **(https://fabomoca.github.io/desafio-condiciones/)**
+👉 *GitHub Pages:* **(https://fabomoca.github.io/condiciones/)**
 
 ## 🙌 Autor
 
